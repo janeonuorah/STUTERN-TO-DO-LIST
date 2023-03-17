@@ -1,0 +1,103 @@
+/* Styling all items*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(162, 132, 94);
+}
+
+section {
+    border: 1px solid black;
+    padding: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color: rgb(228, 200, 164);
+}
+
+/* Styling the header */
+h1 {
+    font-size: 100px;
+    color: rgb(242, 233, 216);
+}
+
+/* Styling the input bar and the add button */
+input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+span {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+span:hover {
+    background-color: #bbb;
+}
+
+
+/* Styling the list items */
+ul {
+    margin-top: 50px;
+}
+
+ul li {
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    border: 0.5px solid black;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+li:hover {
+    background-color: rgb(255, 235, 205);
+}
+
+/* ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+}
+
+ul li.checked::before {
+    content: '';
+    position: absolute;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    top: 10px;
+    left: 16px;
+    transform: rotate(45deg);
+    height: 15px;
+    width: 7px;
+} */
+
+.close {
+    /* position: absolute; */
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: light;
+}
+
+.close:hover {
+    background-color: #bbb;
+    color: white;
+}
